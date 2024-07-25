@@ -22,8 +22,8 @@ I am currently enrolled in a comprehensive ML and NLP course taught by Krish Nai
 To get started, clone the repository and install the required dependencies.
 
 ```bash
-git clone https://github.com/yourusername/NLP-Journey.git
-cd NLP-Journey
+git clone https://github.com/arunp77/Natural-Language-Processing-Journey.git
+cd Natural-Language-Processing-Journey
 pip install -r requirements.txt
 ```
 
@@ -65,15 +65,15 @@ NLP-Journey/
 └── .gitignore
 ```
 
-## Course Progress
+## Progress
 
 ### Basics
 - [x] Introduction to NLP
 - [x] Text Preprocessing
 
 ### Advanced
-- [ ] Deep Learning for NLP
-- [ ] Transformers
+- [x] Deep Learning for NLP
+- [x] Transformers
 
 ## Projects
 
@@ -83,13 +83,6 @@ A project focused on analyzing the sentiment of text data using various NLP tech
 ### Named Entity Recognition
 A project aimed at identifying and classifying entities in text into predefined categories.
 
-## References
-
-A collection of books and papers that I found useful during my NLP journey.
-
-- [Books](references/books.md)
-- [Papers](references/papers.md)
-
 ## Contributing
 
 Feel free to fork this repository and contribute by submitting a pull request. For major changes, please open an issue first to discuss what you would like to change.
@@ -98,38 +91,10 @@ Feel free to fork this repository and contribute by submitting a pull request. F
 
 This project is licensed under the Cretive License - see the [LICENSE](LICENSE) file for details.
 
-### Steps to Create the Repository
-
-1. **Create the Repository on GitHub:**
-   - Go to GitHub and create a new repository named `NLP-Journey`.
-   - Initialize with a `README.md` file.
-
-2. **Clone the Repository:**
-   - Clone the repository to your local machine.
-   
-   ```bash
-   git clone https://github.com/yourusername/NLP-Journey.git
-   cd NLP-Journey
-   ```
-
-3. **Create Directory Structure:**
-   
-   ```bash
-   mkdir -p NLP-Journey/{01_Basics/{notebooks,datasets,scripts},02_Advanced/{notebooks,datasets,scripts},03_Projects/{Sentiment_Analysis/{notebooks,datasets,scripts},Named_Entity_Recognition/{notebooks,datasets,scripts}},references,utils}
-   ```
-
-4. **Create Supporting Files:**
-   - Create the `requirements.txt`, `.gitignore`, `LICENSE`, and other necessary files.
-
-5. **Push the Changes:**
-
-   ```bash
-   git add .
-   git commit -m "Initial commit with repository structure and README"
-   git push origin main
-   ```
-
 # Reference
+A collection of books and papers that I found useful during my NLP journey:
+- [Books](references/books.md)
+- [Papers](references/papers.md)
 - For Machine learning : [Machine Learning basics](https://arunp77.github.io/machine-learning.html)
 - [The Role and Importance of Optimization in Deep Learning](https://arunp77.github.io/optimization.html)
 - [Deep Learning Fundamentals](https://arunp77.github.io/deep-learning.html)
